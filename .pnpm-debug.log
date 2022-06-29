@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_INVALID_OVERRIDE_SELECTOR",
+    "err": {
+      "name": "pnpm",
+      "message": "Cannot parse the \"next-api-og-image/chrome-aws-lambda\" selector in the overrides",
+      "code": "ERR_PNPM_INVALID_OVERRIDE_SELECTOR",
+      "stack": "pnpm: Cannot parse the \"next-api-og-image/chrome-aws-lambda\" selector in the overrides\n    at parsePkgSelector (/snapshot/dist/pnpm.cjs)\n    at /snapshot/dist/pnpm.cjs\n    at Array.map (<anonymous>)\n    at parseOverrides (/snapshot/dist/pnpm.cjs)\n    at default_1 (/snapshot/dist/pnpm.cjs)\n    at createReadPackageHook (/snapshot/dist/pnpm.cjs)\n    at mutateModules (/snapshot/dist/pnpm.cjs)\n    at async install (/snapshot/dist/pnpm.cjs)\n    at async handler (/snapshot/dist/pnpm.cjs)\n    at async /snapshot/dist/pnpm.cjs"
+    }
+  }
+}
